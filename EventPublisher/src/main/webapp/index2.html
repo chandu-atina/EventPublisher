@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#container3 {
+    float:left;
+    width:100%;
+    background:green;
+    overflow:hidden;
+    position:relative;
+}
+#container2 {
+    float:left;
+    width:100%;
+    background:yellow;
+    position:relative;
+    right:30%;
+}
+#container1 {
+    float:left;
+    width:100%;
+    background:red;
+    position:relative;
+    right:40%;
+}
+#col1 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:72%;
+    overflow:hidden;
+}
+#col2 {
+    float:left;
+    width:36%;
+    position:relative;
+    left:76%;
+    overflow:hidden;
+}
+#col3 {
+    float:left;
+    width:26%;
+    position:relative;
+    left:80%;
+    overflow:hidden;
+}
+
+.span4 {
+    width:25%;
+    display:block;
+    position:relative; /*added*/
+}
+
+/*added*/
+.overlay {
+    position:absolute;
+    top:0;
+    width:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.3);
+    display:none;
+}
+.red:hover .overlay {
+    display:block;
+}
+</style>
+</head>
+<body >
+	<div id="container3">
+    <div id="container2">
+        <div id="container1">
+            <div id="col1">Column 1 <br /> <br /><br /> <br /></div>
+            <div id="col2">Column 2</div>
+            <div id="col3">Column 3</div>
+        </div>
+    </div>
+</div>
+<div class="span4 red">
+    <img src="http://img.thesun.co.uk/aidemitlum/archive/01500/SNE0125Q---_149991_1500286a.jpg">
+    <div class="overlay">
+        <span>Text text text</span>
+        <button>Button</button>
+    </div>
+</div>
+</body>
+</html>

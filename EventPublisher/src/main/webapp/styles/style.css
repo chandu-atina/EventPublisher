@@ -1,0 +1,299 @@
+@CHARSET "UTF-8";
+<style>
+#container3 {
+	float: left;
+	width: 100%;
+	background: white;
+	overflow: visible;
+	position: relative;
+}
+
+#container2 {
+	float: left;
+	width: 100%;
+	background: yellow;
+	position: relative;
+	right: 30%;
+}
+
+#container1 {
+	float: left;
+	width: 100%;
+	background: #f05032;
+	position: relative;
+	right: 95%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.main-container {
+	background: #555;
+	overflow: visible;
+}
+
+#content {
+	float: left;
+	width: 75%;
+	background: #eee;
+}
+
+.corner-icon {
+	background-color: #000000;
+	color: white;
+	padding: 5px;
+	width: 5%;
+	float: left;
+	height: 49px;
+}
+
+#header1 {
+	background-color: #5a5651;
+	color: white;
+	padding: 5px;
+	width: 95%;
+	float: left;
+}
+
+#nav {
+	width: 10%;
+	float: left;
+	padding: 5px;
+	overflow: hidden;
+	position: relative;
+	left: 95%
+}
+
+.content {
+	width: 90%;
+	float: left;
+	padding: 5px;
+	overflow: visible;
+	position: relative;
+	left: 90%
+}
+
+#header2 {
+	background-color: white;
+	color: red;
+	text-align: left;
+	padding: 5px;
+	width: 100%;
+	float: left;
+}
+
+.section1 {
+	width: 467px;
+	height: 400px;
+	float: left;
+	padding: 5px 0 5px 5px;
+}
+
+.section2 {
+	width: 667px;
+	height: 400px;
+	float: left;
+	padding: 5px 0 5px 5px;
+}
+
+.section3 {
+	width: 1134px;
+	height: 200px;
+	float: left;
+	padding: 5px 0 5px 5px;
+}
+
+#footer {
+	background-color: black;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+}
+
+input[type="text"] {
+	padding: 10px;
+	border: none;
+	border-bottom: solid 2px #c9c9c9;
+	transition: border 0.3s;
+	background-color: #5a5651;
+	color: #a7b0a7;
+}
+
+input[type="text"]:focus, input[type="text"].focus {
+	border-bottom: solid 2px #969696;
+}
+
+.container {
+	width: 100%;
+	float: left;
+}
+
+background-repeat
+
+
+:
+
+ 
+
+no-repeat
+
+
+;
+display
+
+
+:
+
+ 
+
+inline-block
+
+
+;
+height
+
+
+:
+
+ 
+
+14
+px
+
+
+;
+line-height
+
+
+:
+
+ 
+
+14
+px
+
+
+;
+margin-top
+
+
+:
+
+ 
+
+1
+px
+
+
+;
+vertical-align
+
+
+:
+
+ 
+
+text-top
+
+
+;
+width
+
+
+:
+
+ 
+
+14
+px
+
+
+;
+}
+a:hover {
+	opacity: 0.7;
+	border: 1px solid #e8e8e8;
+}
+
+a img:hover {
+	opacity: 0.7;
+	border: 1px solid #e8e8e8;
+}
+
+#wrapper2 {
+	float: left;
+	height: 50%;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	width: 50%;
+}
+
+#wrapper2 .text {
+	bottom: 200px;
+	height: 100%;
+	left: 15px;
+	position: relative;
+	visibility: hidden;
+	width: 100%;
+}
+
+#wrapper2:hover .text {
+	visibility: visible;
+}
+
+#wrapper2:hover img {
+	opacity: 0.7;
+}
+
+#wrapper1 {
+	float: left;
+	height: 100%;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	width: 100%;
+}
+
+#wrapper1 .text {
+	bottom: 400px;
+	height: 100%;
+	left: 15px;
+	position: relative;
+	visibility: hidden;
+	width: 100%;
+}
+
+#wrapper1:hover .text {
+	visibility: visible;
+}
+
+#wrapper1:hover img {
+	opacity: 0.7;
+}
+
+#wrapper3 {
+	float: left;
+	height: 100%;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	width: 25%;
+}
+
+#wrapper3 .text {
+	bottom: 200px;
+	height: 100%;
+	left: 15px;
+	position: relative;
+	visibility: hidden;
+	width: 100%;
+}
+
+#wrapper3:hover .text {
+	visibility: visible;
+}
+
+#wrapper3:hover img {
+	opacity: 0.7;
+}
+</style>
