@@ -142,18 +142,16 @@
 }
 
 .section2 {
-	width: 60%;
-	float: left;
+	overflow : hidden;
 	padding: 5px 0 5px 5px;
-	min-width: 250px;
+	min-width: 500px;
 	position: relative;
 }
 
 .section3 {
-	width: 100%;
-	float: left;
+	overflow : hidden;
 	padding: 5px 0 5px 5px;
-	min-width: 250px;
+	min-width: 500px;
 	position: relative;
 }
 
