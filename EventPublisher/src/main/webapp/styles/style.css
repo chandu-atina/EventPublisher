@@ -112,6 +112,10 @@
 	left: 95%
 }
 
+#nav img {
+    min-width: 50px;
+}
+
 .content {
 	width: 90%;
 	float: left;
