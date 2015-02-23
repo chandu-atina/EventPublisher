@@ -104,7 +104,7 @@
 }
 
 #nav {
-	width: 10%;
+	width: 5%;
 	float: left;
 	padding: 5px;
 	overflow: hidden;
@@ -117,12 +117,12 @@
 }
 
 .content {
-	width: 90%;
+	width: 95%;
 	float: left;
 	padding: 5px;
 	overflow: visible;
 	position: relative;
-	left: 90%
+	left: 95%
 }
 
 #header2 {
