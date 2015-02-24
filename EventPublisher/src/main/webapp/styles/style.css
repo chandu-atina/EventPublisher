@@ -21,7 +21,6 @@
 	width: 100%;
 	background: #f05032;
 	position: relative;
-	right: 95%;
 }
 
 * {
@@ -65,7 +64,8 @@
 	float: left;
 	height: 49px;
 	line-height: 48px;
-    text-align: center;
+    min-width: 20px;
+    
 }
 
 .clip-circle span{
@@ -93,6 +93,27 @@
 	position: absolute;
 }
 
+.styling {
+    float: left;
+    height: 100%;
+    min-width: 30px;
+    position: relative;
+}
+
+
+.styling .text {
+  background: none repeat scroll 0 0 orange;
+    border-radius: 50%;
+    bottom: 26px;
+    height: 40px;
+    left: 32px;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    vertical-align: text-top;
+    width: 40px;
+}
+
 .round_img img {
 	display: block;
 	/* Stretch 
@@ -108,11 +129,12 @@
 	float: left;
 	overflow: hidden;
 	position: relative;
-	left: 95%
+	padding: 1px;
+	
 }
 
 #nav img {
-    min-width: 50px;
+    width: 100%;
 }
 
 .content {
@@ -121,7 +143,7 @@
 	padding: 5px;
 	overflow: visible;
 	position: relative;
-	left: 95%
+	background: white;
 }
 
 #header2 {
