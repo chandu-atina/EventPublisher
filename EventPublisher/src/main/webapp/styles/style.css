@@ -488,7 +488,7 @@ a img:hover {
 	float: left;
 	height: 100%;
 	position: relative;
-	width: 35%;
+	width: 32%;
 }
 
 .header-user-profile .profile-icon-styling .text {
@@ -508,14 +508,14 @@ a img:hover {
 	float: right;
 	height: 100%;
 	position: relative;
-	width: 65%;
+	width: 68%;
 }
 
 .profile-name-styling>span {
 	color: white;
 	float: right;
 	width: auto;
-	max-width: 70%;
+	max-width: 85%;
 }
 </
 style
