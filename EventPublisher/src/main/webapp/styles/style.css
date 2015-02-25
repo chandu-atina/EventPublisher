@@ -1,6 +1,7 @@
 @CHARSET "UTF-8";
-<style>
-#container3 {
+
+<
+style>#container3 {
 	float: left;
 	width: 100%;
 	background: white;
@@ -64,25 +65,22 @@
 	float: left;
 	height: 49px;
 	line-height: 48px;
-    min-width: 20px;
-    
+	min-width: 20px;
 }
 
-.clip-circle span{
-  display: block;
-    height: 20px;
-    width: 20px;
-    line-height: 20px;
-
-    -moz-border-radius: 30px; /* or 50% */
-    border-radius: 30px; /* or 50% */
-
-    background-color: orange;
-    color: white;
-    text-align: center;
-    font-size: 1em;
-    position: absolute;
-    z-index: 100;
+.clip-circle span {
+	display: block;
+	height: 20px;
+	width: 20px;
+	line-height: 20px;
+	-moz-border-radius: 30px; /* or 50% */
+	border-radius: 30px; /* or 50% */
+	background-color: orange;
+	color: white;
+	text-align: center;
+	font-size: 1em;
+	position: absolute;
+	z-index: 100;
 }
 
 .round_img {
@@ -94,24 +92,23 @@
 }
 
 .styling {
-    float: left;
-    height: 100%;
-    min-width: 30px;
-    position: relative;
+	float: left;
+	height: 100%;
+	min-width: 30px;
+	position: relative;
 }
 
-
 .styling .text {
-  background: none repeat scroll 0 0 orange;
-    border-radius: 50%;
-    bottom: 26px;
-    height: 40px;
-    left: 32px;
-    padding: 5px;
-    position: relative;
-    text-align: center;
-    vertical-align: text-top;
-    width: 40px;
+	background: none repeat scroll 0 0 orange;
+	border-radius: 50%;
+	bottom: 26px;
+	height: 40px;
+	left: 32px;
+	padding: 5px;
+	position: relative;
+	text-align: center;
+	vertical-align: text-top;
+	width: 40px;
 }
 
 .round_img img {
@@ -130,11 +127,10 @@
 	overflow: hidden;
 	position: relative;
 	padding: 1px;
-	
 }
 
 #nav img {
-    width: 100%;
+	width: 100%;
 }
 
 .content {
@@ -164,14 +160,14 @@
 }
 
 .section2 {
-	overflow : hidden;
+	overflow: hidden;
 	padding: 5px 0 5px 5px;
 	min-width: 500px;
 	position: relative;
 }
 
 .section3 {
-	overflow : hidden;
+	overflow: hidden;
 	padding: 5px 0 5px 5px;
 	min-width: 500px;
 	position: relative;
@@ -211,81 +207,123 @@ input[type="text"]:focus, input[type="text"].focus {
 background-repeat
 
 
+
+
 :
+
 
  
 
+
 no-repeat
+
+
 
 
 ;
 display
 
 
+
+
 :
+
 
  
 
+
 inline-block
+
+
 
 
 ;
 height
 
 
+
+
 :
+
 
  
 
+
 14
 px
+
+
 
 
 ;
 line-height
 
 
+
+
 :
+
 
  
 
+
 14
 px
+
+
 
 
 ;
 margin-top
 
 
+
+
 :
+
 
  
 
+
 1
 px
+
+
 
 
 ;
 vertical-align
 
 
+
+
 :
+
 
  
 
+
 text-top
+
+
 
 
 ;
 width
 
 
+
+
 :
+
 
  
 
+
 14
 px
+
+
 
 
 ;
@@ -299,6 +337,7 @@ a img:hover {
 	opacity: 0.7;
 	border: 1px solid #e8e8e8;
 }
+
 #wrapper-list {
 	float: left;
 	height: 150px;
@@ -329,7 +368,7 @@ a img:hover {
 	height: 50%;
 	padding-left: 5px;
 	width: 50%;
-	min-width : 250px;
+	min-width: 250px;
 	position: relative;
 }
 
@@ -350,8 +389,8 @@ a img:hover {
 	opacity: 0.7;
 }
 
-#wrapper2 > img {
-	height : 200px;
+#wrapper2>img {
+	height: 200px;
 }
 
 #wrapper1 {
@@ -379,8 +418,9 @@ a img:hover {
 #wrapper1:hover img {
 	opacity: 0.7;
 }
-#wrapper1 > img {
-	height : 400px;
+
+#wrapper1>img {
+	height: 400px;
 }
 
 #wrapper3 {
@@ -409,7 +449,73 @@ a img:hover {
 	opacity: 0.7;
 }
 
-#wrapper3 > img {
-	height : 200px;
+#wrapper3>img {
+	height: 200px;
 }
-</style>
+
+.top-header {
+	background-color: #5a5651;
+	width: 100%;
+	height: 50px;
+	position: relative;
+	float: right;
+}
+
+.header-corner-icon {
+	float: left;
+	width: 5%;
+	float: left;
+	background-color: black;
+	height: 50px;
+}
+
+.header-search-bar {
+	float: left;
+	width: auto;
+	display: inline-block;
+	height: 50px;
+}
+
+.header-user-profile {
+	background-color: #000000;
+	float: right;
+	height: 50px;
+	min-width: 152px;
+	width: 20%;
+}
+
+.header-user-profile .profile-icon-styling {
+	float: left;
+	height: 100%;
+	position: relative;
+	width: 35%;
+}
+
+.header-user-profile .profile-icon-styling .text {
+	background: none repeat scroll 0 0 orange;
+	border-radius: 50%;
+	bottom: -4px;
+	color: white;
+	left: 31px;
+	padding: 4px;
+	position: relative;
+	size: 151px;
+	text-align: center;
+	vertical-align: text-top;
+}
+
+.header-user-profile .profile-name-styling {
+	float: right;
+	height: 100%;
+	position: relative;
+	width: 65%;
+}
+
+.profile-name-styling>span {
+	color: white;
+	float: right;
+	width: 70%;
+}
+</
+style
+>
