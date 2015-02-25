@@ -514,7 +514,8 @@ a img:hover {
 .profile-name-styling>span {
 	color: white;
 	float: right;
-	width: 70%;
+	width: auto;
+	max-width: 70%;
 }
 </
 style
