@@ -8,17 +8,28 @@
 <script src="scripts/jquery-2.1.3.min.js"></script>
 
 <script>
+
 	$(document).ready(function() {
 		$('.container-list').hide();
+		$('.grid').css('border', '2px solid black');
+		$('.grid').css('padding', '1px');
 
 		$('.grid').on('click', function(e) {
 			$('.container-list').hide();
 			$('.container-grid').show();
+			 $(this).css('border', '2px solid black');
+			 $(this).css('padding', '1px');
+			 $('.list').css('border', '0px');
+			 $('.list').css('padding', '0px');
 		});
 
 		$('.list').on('click', function(e) {
 			$('.container-grid').hide();
 			$('.container-list').show();
+			 $(this).css('border', '2px solid black');
+			 $(this).css('padding', '1px');
+			 $('.grid').css('border', '0px');
+			 $('.grid').css('padding', '0px');
 		});
 	});
 </script>
