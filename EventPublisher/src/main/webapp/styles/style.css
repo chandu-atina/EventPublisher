@@ -20,7 +20,7 @@ style>#container3 {
 #container1 {
 	float: left;
 	width: 100%;
-	background: #f05032;
+
 	position: relative;
 }
 
@@ -122,11 +122,12 @@ style>#container3 {
 }
 
 #nav {
-	width: 5%;
+	width: 50px;
 	float: left;
 	overflow: hidden;
 	position: relative;
 	padding: 1px;
+	background: #f05032;
 }
 
 #nav img {
@@ -134,10 +135,10 @@ style>#container3 {
 }
 
 .content {
-	width: 95%;
+	width: 90%;
 	float: left;
-	padding: 5px;
-	overflow: visible;
+	padding: 5px 5px 5px 50px;
+	overflow: hidden;
 	position: relative;
 	background: white;
 }
@@ -463,7 +464,7 @@ a img:hover {
 
 .header-corner-icon {
 	float: left;
-	width: 5%;
+	width: 50px;
 	float: left;
 	background-color: black;
 	height: 50px;
