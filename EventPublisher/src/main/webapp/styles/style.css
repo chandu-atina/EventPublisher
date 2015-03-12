@@ -1,7 +1,6 @@
 @CHARSET "UTF-8";
 
-<
-style>#container3 {
+#container3 {
 	float: left;
 	width: 100%;
 	background: white;
@@ -20,7 +19,6 @@ style>#container3 {
 #container1 {
 	float: left;
 	width: 100%;
-
 	position: relative;
 }
 
@@ -518,6 +516,3 @@ a img:hover {
 	width: auto;
 	max-width: 85%;
 }
-</
-style
->
